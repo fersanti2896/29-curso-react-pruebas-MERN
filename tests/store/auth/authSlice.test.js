@@ -14,7 +14,7 @@ describe('Pruebas en authSlice.', () => {
             status: 'authenticated',
             user: testUserCredentials,
             errorMessage: undefined,
-        })
+        });
     });
 
     test('Debe de realizar el logout.', () => { 
@@ -24,7 +24,7 @@ describe('Pruebas en authSlice.', () => {
             status: 'not-authenticated',
             user: {},
             errorMessage: undefined
-        })
+        });
     });
 
     test('Debe de realizar el logout con mensaje.', () => { 
@@ -35,7 +35,7 @@ describe('Pruebas en authSlice.', () => {
             status: 'not-authenticated',
             user: {},
             errorMessage: errorMessage
-        })
+        });
     });
 
     test('Debe de limpiar el mensaje de error.', () => { 
