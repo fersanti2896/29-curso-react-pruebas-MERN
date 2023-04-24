@@ -51,5 +51,5 @@ describe('Pruebas en authSlice.', () => {
         state = authSlice.reducer( state, onChecking() );
         
         expect( state ).toEqual( initialState );
-    })
+    });
 })
