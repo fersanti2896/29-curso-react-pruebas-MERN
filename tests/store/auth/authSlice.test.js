@@ -52,4 +52,4 @@ describe('Pruebas en authSlice.', () => {
         
         expect( state ).toEqual( initialState );
     });
-})
+});
